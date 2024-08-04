@@ -7,7 +7,19 @@ body{
     transform: translateY(20px);
     transition: opacity 1.4s ease-out, transform 1.4s ease-out;
 }
-
+.pesquisa-rapida{
+    display: none;
+}
+.configuration img:hover + .pesquisa-rapida{
+    display: flex;
+    margin-left: 17%;
+    border-radius: 15px;
+    position: absolute;
+    background-color: rgb(211, 180, 180);
+    height: 410px;
+    width: 80%;
+    z-index: 1;
+}
 .fade-in.visible {
     opacity: 1;
     transform: translateY(0);
@@ -119,12 +131,11 @@ main .texto-1{
         }
     }
     main .sobre-nos ul li p{
-        margin-left: 0%;
+        margin-left: 10%;
         margin-top: 40px;
         
     }
     main .sobre-nos ul li .elemento{
-        margin-left: 5%;
         background-color: rgba(19, 92, 156, 0);
     }
     main .sobre-nos ul li .elemento h1{

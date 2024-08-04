@@ -15,50 +15,112 @@
     </div>
 </header>
 <main>
-    <div class="texto-1-pai">
+    <div class="texto-1-pai fade-in">
         <h1>titulo</h1>
         <div class="texto-1">
-            
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-               Excepturi odit distinctio nisi natus repellat debitis vel
-               cum eius velit sed facilis soluta sequi beatae saepev
-               quaerat rerum, animi nostrum iste.
+                Excepturi odit distinctio nisi natus repellat debitis vel
+                cum eius velit sed facilis soluta sequi beatae saepev
+                quaerat rerum, animi nostrum iste.
             </p>
         </div>
     </div>
-    <div class="logo-no-site">
+    <div class="logo-no-site fade-in">
         <img src="img/20_08_2023 08_03_22 (2).png" alt="">
     </div>
-    <div class="sobre-nos">
+    <div class="sobre-nos fade-in">
         <ul>
             <li>
                 <img src="img/WhatsApp Image 2023-08-20 at 08.49.06.jpeg" alt="">
                 <div class="elemento">
-                <h1>
-                    sobre nós
-                </h1>
-                <p>Lorem ipsum dolor sit, amet consectetur 
-                    adipisicing elit. Molestiae soluta, quae error, aspernatur
-                    accusantium illo cupiditate voluptatibus, i
-                </p>
+                    <h1>sobre nós</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur 
+                        adipisicing elit. Molestiae soluta, quae error, aspernatur
+                        accusantium illo cupiditate voluptatibus, i
+                    </p>
                 </div>
             </li>
             <li>
                 <img src="img/WhatsApp Image 2023-08-20 at 09.21.32.jpeg" alt="">
                 <div class="elemento">
-                    <h1>
-                        inovação
-                    </h1>
+                    <h1>inovação</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur 
                         adipisicing elit. Molestiae soluta, quae error, aspernatur
                         accusantium illo cupiditate voluptatibus, i
                     </p>
-                    </div>
+                </div>
             </li>
-            <li></li>
+            <li>
+                <img src="img/WhatsApp Image 2023-08-20 at 09.21.32.jpeg" alt="">
+                <div class="elemento">
+                    <h1>inovação</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur 
+                        adipisicing elit. Molestiae soluta, quae error, aspernatur
+                        accusantium illo cupiditate voluptatibus, i
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="img/WhatsApp Image 2023-08-20 at 09.21.32.jpeg" alt="">
+                <div class="elemento">
+                    <h1>inovação</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur 
+                        adipisicing elit. Molestiae soluta, quae error, aspernatur
+                        accusantium illo cupiditate voluptatibus, i
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="img/WhatsApp Image 2023-08-20 at 09.21.32.jpeg" alt="">
+                <div class="elemento">
+                    <h1>inovação</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur 
+                        adipisicing elit. Molestiae soluta, quae error, aspernatur
+                        accusantium illo cupiditate voluptatibus, i
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="img/WhatsApp Image 2023-08-20 at 09.21.32.jpeg" alt="">
+                <div class="elemento">
+                    <h1>inovação</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur 
+                        adipisicing elit. Molestiae soluta, quae error, aspernatur
+                        accusantium illo cupiditate voluptatibus, i
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="img/WhatsApp Image 2023-08-20 at 09.21.32.jpeg" alt="">
+                <div class="elemento">
+                    <h1>inovação</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur 
+                        adipisicing elit. Molestiae soluta, quae error, aspernatur
+                        accusantium illo cupiditate voluptatibus, i
+                    </p>
+                </div>
+            </li>
         </ul>
-        
     </div>
+    
 </main>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const fadeInElements = document.querySelectorAll('.fade-in');
+    
+        function checkVisibility() {
+            fadeInElements.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    el.classList.add('visible');
+                }
+            });
+        }
+    
+        window.addEventListener('scroll', checkVisibility);
+        checkVisibility(); // Check on load
+    });
+    </script>
+    
 </body>
 </html>

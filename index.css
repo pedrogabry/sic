@@ -15,7 +15,7 @@ body{
     margin-left: 17%;
     border-radius: 15px;
     position: absolute;
-    background-color: rgb(73 73 73);
+    background-color: rgb(22 21 21);
     height: 410px;
     width: 80%;
     z-index: 1;
@@ -25,7 +25,7 @@ body{
     background: #00ffff00;
     border-style: solid;
     padding-left: 20px;
-    border-color: #939393;
+    border-color: #1a1a1a;
     display: flex;
     height: 50px;
     margin-top: 20px;
@@ -33,7 +33,7 @@ body{
     border-width: 2px;
     text-decoration: none;
     font-size: 25px;
-    color: aliceblue;
+    color: #9b9b9b;
     align-items: center;
 
 }

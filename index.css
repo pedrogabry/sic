@@ -48,6 +48,7 @@ main .texto-1-pai{
     
 }
 main .texto-1{
+    margin-left: 85px;
     width: 65%;
     background-color: rgba(0, 255, 255, 0);
     border-right-style: solid;

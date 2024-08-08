@@ -1,6 +1,7 @@
 body{
     background-color: rgb(139 139 139);
     margin: 0;
+    padding: 0;
 }
 .fade-in {
     opacity: 0;
@@ -259,6 +260,64 @@ main .logo-no-site img{
         transform: translateY(18%);
     
     }
+}
+/*//////////////////////////////////eletricista/////////////////////*/
+
+.papelparede{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.luminaria{
+    height: 100%;
+    width: 100%;
+}
+.lampada-brilhante{
+    height: 40px;
+}
+.icon-header{
+    display: flex;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1.titulo-eletricista {
+    position: absolute;
+    margin-top: 20%;
+    color: #c7c7c7;
+}
+.corpo {
+    border-radius: 15px;
+    color: #b7b7b7;
+    background-color: #0e0e0e;
+    padding: 10px;
+}
+p {
+    font-size: 20px;
+}
+.bolinha {
+    position: relative;
+    padding-left: 30px; /* Espaço para a bolinha */
+}
+
+.bolinha::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: #b7b7b7; /* Cor da bolinha */
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
 }
 
 
